@@ -14,7 +14,7 @@ logSubject = "BCI_app 日志告警"
 
 # 服务器参数设置
 httpServer = dict(uname ='0.0.0.0',
-    paths = "api:app",
+    paths = "src.api:app", #设置服务模块
     ports = 8088,
     log = 'info',
     reloade =True)

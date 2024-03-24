@@ -4,7 +4,7 @@ import json
 from loguru import logger as log
 
 # 自定义模块
-from ..config.app_config import *
+from config.app_config import *
 
 class HTTP():
     def __init__(self) -> None:

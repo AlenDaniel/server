@@ -4,7 +4,7 @@ from loguru import logger as log
 from notifiers.logging import NotificationHandler
 
 # 自定义模块
-from .plugin_config import *
+from plugin_config import *
 
 
 class Log():
